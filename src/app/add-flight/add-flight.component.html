@@ -1,0 +1,51 @@
+<div class="top_bg_ofr_sb">
+    <div class="middle_sec_sb">
+   <h1> Book your Ticket</h1> 
+   <div class="clr"></div>
+    
+<div class="container">
+    <div class="action">
+      
+      <label for="fname">Airline Name</label>
+      <input type="text" id="airlineName" placeholder="Airline name.." [(ngModel)]='flight.airlineName'>
+  
+      <label for="lname">Depature</label>
+      <input type="text"  id="depature" placeholder="Depature.." [(ngModel)]='flight.depature'>
+      <label for="lname">Arrival</label>
+      <input type="text" id="arrival" placeholder="Arrival.." [(ngModel)]='flight.arrival'>
+      <label for="lname">Start time</label>
+      <input type="text" id="startTime" placeholder="Start Time.." [(ngModel)]='flight.startTime'>
+      <label for="lname">End Time</label>
+      <input type="text" id="endTime" placeholder="End Time.." [(ngModel)]='flight.endTime'>
+
+
+      <label for="lname">Flight Number</label>
+      <input type="text" id="flightNumber" placeholder="Flight Number.." [(ngModel)]='flight.flightNumber'>
+      <label for="lname">Duration</label>
+      <input type="text" id="duration" placeholder="Duration.." [(ngModel)]='flight.duration'>
+      <label for="lname">Price</label>
+      <input type="number" id="price" placeholder="Price.." [(ngModel)]='flight.price'>
+      <label for="lname">Meal Preference</label>
+      <select value="meal" id="meals" [(ngModel)]='flight.meals'>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+      </select>    
+      
+
+      <label for="lname">Date</label>
+      <input type="date" id="travelDate" placeholder="Date.." [(ngModel)]='flight.travelDate'>
+
+
+
+
+      <div class="header">
+        <nav>
+           <button class="active" type = "submit" (click)='save()'>Add Flight</button>
+        </nav>
+       </div>
+      </div>
+  </div>
+
+
+</div>
+</div>

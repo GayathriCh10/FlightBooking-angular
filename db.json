@@ -1,0 +1,117 @@
+{
+  "airlinelist": [
+    {
+      "airlineName": "Indigo",
+      "uploadLogo": "",
+      "contactNumber": 0,
+      "contactAddress": "",
+      "flightNumber": "A1",
+      "fromPlace": "Bengalore",
+      "toPlace": "Hyderabad",
+      "startDateTime": "2021-05-30T13:04:52.745Z",
+      "endDateTime": "2021-05-30T13:04:52.745Z",
+      "scheduledDays": "",
+      "instrumentUsed": "",
+      "numberOfBusinessSeats": "",
+      "numberOfNonBusinessSeats": "",
+      "ticketCost": 0,
+      "noOfRows": 0,
+      "meal": "",
+      "id": 1
+    }
+  ],
+  "flights": [
+    {
+      "airlineName": "Indigo",
+      "depature": "Bengalore",
+      "arrival": "Hyderabad",
+      "flightNumber": "A21780",
+      "startTime": "15:30",
+      "endTime": "18:20",
+      "duration": "02h 20m",
+      "price": 4236,
+      "travelDate": "2021-06-04T00:17:59.559Z",
+      "meals": "",
+      "id": 1
+    }
+  ],
+  "ticketDetails": [
+    {
+      "email": "user1@gmail",
+      "airlineName": "",
+      "depature": "",
+      "arrival": "",
+      "flightNumber": "",
+      "startTime": "",
+      "endTime": "",
+      "duration": "",
+      "price": 0,
+      "travelDate": "2021-06-06T19:42:11.818Z",
+      "firstName": "user",
+      "lastName": "",
+      "gender": "",
+      "contactNumber": 0,
+      "id": 1
+    },
+    {
+      "email": "user2@gmail.com",
+      "travelDate": "2021-06-06T20:15:09.536Z",
+      "firstName": "user2",
+      "lastName": "",
+      "gender": "",
+      "contactNumber": 0,
+      "id": 2
+    },
+    {
+      "email": "user21@gmail.com",
+      "airlineName": "",
+      "depature": "",
+      "arrival": "",
+      "flightNumber": "",
+      "startTime": "",
+      "endTime": "",
+      "duration": "",
+      "price": "",
+      "travelDate": "2021-06-06T20:58:11.074Z",
+      "firstName": "user21user21",
+      "lastName": "",
+      "gender": "",
+      "contactNumber": 0,
+      "id": 3
+    },
+    {
+      "email": "user10@gmail.com",
+      "airlineName": "",
+      "depature": "",
+      "arrival": "",
+      "flightNumber": "",
+      "startTime": "",
+      "endTime": "",
+      "duration": "",
+      "price": "",
+      "travelDate": "2021-06-06T21:19:21.444Z",
+      "firstName": "user10",
+      "lastName": "",
+      "gender": "",
+      "contactNumber": 0,
+      "id": 4
+    },
+    {
+      "email": "user41@gmail.com",
+      "airlineName": "",
+      "depature": "Bengalore",
+      "arrival": "",
+      "flightNumber": "",
+      "startTime": "",
+      "endTime": "",
+      "duration": "",
+      "price": "",
+      "travelDate": "2021-06-06T22:06:54.031Z",
+      "firstName": "user41",
+      "lastName": "",
+      "gender": "",
+      "contactNumber": 0,
+      "id": 5
+    }
+  ]
+}

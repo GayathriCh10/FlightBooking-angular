@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sample';
+
+  setType(type:string){
+    return 'a';
+  }
+  setsearhengine_Return(){
+
+  }
+  setsearhengine(){
+
+  }
+  autodiv_from(){
+    
+  }
 }
